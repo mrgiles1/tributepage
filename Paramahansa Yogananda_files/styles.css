@@ -221,7 +221,7 @@ h1 {
 
 /* PARALLAX */
 .parallax {
-  min-height: 2000px;
+  min-height: 75vh;
   display: grid;
   grid-template-areas: stack;
 }
@@ -235,41 +235,9 @@ h1 {
 }
 
 .parallax01 {
-  z-index: -1;
-  position:absolute;
-  top: 500px;
-  left: 0;
-  width: 50%;
-}
-
-.parallax02 {
-  z-index: -1;
-  position:absolute;
-  top: 700px;
-}
-
-.parallax03 {
-  z-index: -1;
-  position:absolute;
-  top: 900px;
-}
-
-.parallax04 {
-  z-index: -1;
-  position:absolute;
-  top: 1200px;
-}
-
-.parallax05 {
-  z-index: -1;
-  position:absolute;
-  top: 1500px;
-}
-
-.parallax06 {
-  z-index: -1;
-  position:absolute;
-  top: 1900px;
+  z-index: 1;
+  position: absolute;
+  top: 100px;
 }
 
 /* END PARALLAX */
